@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+    <a href="#project" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PROJECT</a>
+    <a href="#faq" class="w3-bar-item w3-button w3-padding-large w3-hide-small">FAQ</a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
+  <a href="#project" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PROJECT</a>
+  <a href="#faq" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">FAQ</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  
+
+  <!-- The ABOUT Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="about">
+    <div class="w3-half">
+		<h2 class="w3-wide">ABOUT</h2>
+		<p class="w3-opacity"><i>We love NFTs</i></p>
+		<p class="w3-justify">500 generated color blocks on the Solana blockchain. By owning a Colorblock, you become a member of our community and you will receive 100% of our royalties. 
+		They are redistributed to all holders.</p>
+		<div class="w3-row w3-padding-32">
+		  <div class="w3-third">
+			<p>el chikun</p>
+			<img src="493.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+		  </div>
+		  <div class="w3-third">
+			<p>yommmmm-tastic</p>
+			<img src="495.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+		  </div>
+		  <div class="w3-third">
+			<p>nft GOAT</p>
+			<img src="499.png" class="w3-round" alt="Random Name" style="width:60%">
+		  </div>
+		</div>
+	</div>
+	<div class="w3-half">
+		<h2 class="w3-wide">Drop on Nov 5th</h2>
+		<p class="w3-opacity"><i>Solana Network</i></p>
+		<!-- Automatic Slideshow Images -->
+	  <div class="mySlides w3-display-container w3-center">
+		<img src="493.png" style="width:50%">
+	  </div>
+	  <div class="mySlides w3-display-container w3-center">
+		<img src="494.png" style="width:50%">
+	  </div>
+	  <div class="mySlides w3-display-container w3-center">
+		<img src="495.png" style="width:50%">
+	  </div>
+	  <div class="mySlides w3-display-container w3-center">
+		<img src="496.png" style="width:50%">
+	  </div>
+	  <div class="mySlides w3-display-container w3-center">
+		<img src="497.png" style="width:50%">
+	  </div>
+	</div>
+  </div>
+
+  <!-- The Project Section -->
+  <div class="w3-black" id="project">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">PROJECT</h2>
+      <p class="w3-opacity w3-center"><i>block colors!</i></p><br>
+
+      <ul class="w3-ul w3-border w3-white w3-text-grey">
+        <li class="w3-padding">100% royalties redistributed to holders</li>
+        <li class="w3-padding">Burn Supply if we didn’t sell out in time</li>
+        <li class="w3-padding">Cleaning floor price</li>
+      </ul>
+
+      
+    </div>
+  </div>
+
+  <!-- The FAQ Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="faq">
+    <h2 class="w3-wide w3-center">FAQ</h2>
+    <p class="w3-opacity w3-center"><i>questions? Read this first!</i></p>
+	
+	<h3><p>Where can i mint my colorblock(s) ?</p></h3>
+	<p class="w3-opacity w3-center"><i>We will provide a special website link for the drop. You will be able to mint your colorblock on it </i></p>
+	<h3><p>How much does it cost to mint a colorblock ?</p></h3>
+	<p class="w3-opacity w3-center"><i>0.15 SOL for the whitelist and 0.25 for the drop ! </i></p>
+	<h3><p>When will i be able to sell my colorblock ?</p></h3>
+	<p class="w3-opacity w3-center"><i>Right after the drop, all infos about the marketplaces on discord !</i></p>
+	<h3><p>When will i be able to see rarity and where?</p></h3>
+	<p class="w3-opacity w3-center"><i>We already have a rarity board on discord, but you can also find rarity on rarity tools 24h after the drop</i></p>
+    
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 100);    
+}
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
