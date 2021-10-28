@@ -18,7 +18,7 @@ body {font-family: "Lato", sans-serif}
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
     <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
-    <a href="#project" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PROJECT</a>
+    <a href="#project" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ROADMAP</a>
     <a href="#faq" class="w3-bar-item w3-button w3-padding-large w3-hide-small">FAQ</a>
   </div>
 </div>
@@ -40,9 +40,9 @@ body {font-family: "Lato", sans-serif}
     <div class="w3-half">
 		<h2 class="w3-wide">ABOUT</h2>
 		<p class="w3-opacity"><i>We love NFTs</i></p>
-		<p class="w3-justify">500 generated Color Blocks on the Solana blockchain. By owning a Color Block, you become a member of our community and you will receive 100% of our royalties. 
-		They are redistributed to all holders.</p>
-		<div class="w3-row w3-padding-32">
+		<p class="w3-justify">500 generated Color Blocks on the Solana blockchain. By owning a Color Block, you become a member of our community.</p>
+		<h2 class="w3-wide">TEAM</h2>
+		<div class="w3-row">
 		  <div class="w3-third">
 			<p>0x80085</p>
 			<img src="493.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
@@ -151,7 +151,7 @@ function carousel() {
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 200);    
+  setTimeout(carousel, 300);    
 }
 // Used to toggle the menu on small screens when clicking on the menu button
 function myFunction() {
