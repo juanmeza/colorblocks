@@ -9,6 +9,49 @@
 <style>
 body {font-family: "Lato", sans-serif}
 .mySlides {display: none}
+.color-block .bg {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(498.png) center center;
+    opacity: .2;
+    width: 100%;
+    height: 100%;
+}
+
+.color-block .bg2 {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(497.png) center center;
+    opacity: .2;
+    width: 100%;
+    height: 100%;
+}
+
+.color-block .bg3 {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(496.png) center center;
+    opacity: .2;
+    width: 100%;
+    height: 100%;
+}
+
+.color-block {
+    position: relative;
+    z-index: 1;
+}
 </style>
 <body>
 
@@ -33,29 +76,17 @@ body {font-family: "Lato", sans-serif}
 <!-- Page content -->
 <div class="w3-content" style="max-width:2000px;margin-top:46px">
 
-  
 
-  <!-- The ABOUT Section -->
-  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="about">
-    <div class="w3-half">
+
+	<!-- The home Section -->
+  <div class="w3-white color-block">
+	<div class="bg2"></div>
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <div class="w3-half">
 		<h2 class="w3-wide">ABOUT</h2>
 		<p class="w3-opacity"><i>We love NFTs</i></p>
 		<p class="w3-justify">500 generated Color Blocks on the Solana blockchain. By owning a Color Block, you become a member of our community.</p>
-		<h2 class="w3-wide">TEAM</h2>
-		<div class="w3-row">
-		  <div class="w3-third">
-			<p>0x80085</p>
-			<img src="493.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
-		  </div>
-		  <div class="w3-third">
-			<p>0x95832</p>
-			<img src="495.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
-		  </div>
-		  <div class="w3-third">
-			<p>0x03750</p>
-			<img src="499.png" class="w3-round" alt="Random Name" style="width:60%">
-		  </div>
-		</div>
+		
 	</div>
 	<div class="w3-half">
 		<h2 class="w3-wide">Mint soon !</h2>
@@ -77,54 +108,62 @@ body {font-family: "Lato", sans-serif}
 		<img src="497.png" style="width:50%">
 	  </div>
 	</div>
-  </div>
-
-  <!-- The Project Section -->
-  <div class="w3-black" id="project">
-    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
-      <h2 class="w3-wide w3-center">PROJECT ROADMAP</h2>
-      <p class="w3-opacity w3-center"><i>Color Blocks!</i></p><br>
-
-      <ul class="w3-ul w3-border w3-white w3-text-grey">
-		<li class="w3-padding">1 - Devnet test</li>
-        <li class="w3-padding">2 - Launch of website right after mint completion</li>
-        <li class="w3-padding">3 - Listing on secondary markets such as Magiceden/DE</li>
-        <li class="w3-padding">4 - Publish rarity rankings on MoonRank/Rarity Sniper</li>
-		<li class="w3-padding">5 - Integration with Solana nft virtual art gallery</li>
-		<li class="w3-padding">6 - Begin weekly floor sweep: 90% of artist royalties will be used to sweep the floor every week</li>
-		<li class="w3-padding">7 - Set up of Airdrop fund: 10% of artist royalties will be used to buy art from other projects and airdrop it to holders</li>
-		<li class="w3-padding">8 - Twitter/Discord sales bot integration</li>
-		<li class="w3-padding">9 - Grape/SolaLand integration to verify ownership (pending community vote)</li>
-		<li class="w3-padding">10 - Collaboration with other projects (Potential airdrops for holders)</li>
-		<li class="w3-padding">11 - Future plans: Potential expansion of the art collection (Colorblocks Gen 2, with airdrop to community)</li>
-      </ul>
 
       
     </div>
   </div>
 
+
+  <!-- The Project Section -->
+  <div class="w3-white color-block" id="project">
+	<div class="bg"></div>
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">PROJECT ROADMAP</h2>
+      <p class="w3-opacity w3-center"><i>Color Blocks!</i></p><br>
+		<br/>
+      <ul class="w3-ul w3-border w3-white w3-text-grey">
+		<li class="w3-padding-16">1 - Devnet test</li>
+        <li class="w3-padding-16">2 - Launch of website right after mint completion</li>
+        <li class="w3-padding-16">3 - Listing on secondary markets such as Magiceden/DE</li>
+        <li class="w3-padding-16">4 - Publish rarity rankings on MoonRank/Rarity Sniper</li>
+		<li class="w3-padding-16">5 - Integration with Solana nft virtual art gallery</li>
+		<li class="w3-padding-16">6 - Begin weekly floor sweep: 90% of artist royalties will be used to sweep the floor every week</li>
+		<li class="w3-padding-16">7 - Set up of Airdrop fund: 10% of artist royalties will be used to buy art from other projects and airdrop it to holders</li>
+		<li class="w3-padding-16">8 - Twitter/Discord sales bot integration</li>
+		<li class="w3-padding-16">9 - Grape/SolaLand integration to verify ownership (pending community vote)</li>
+		<li class="w3-padding-16">10 - Collaboration with other projects (Potential airdrops for holders)</li>
+		<li class="w3-padding-16">11 - Future plans: Potential expansion of the art collection (Colorblocks Gen 2, with airdrop to community)</li>
+      </ul>
+
+      
+    </div>
+  </div>
+  
+  
   <!-- The FAQ Section -->
-  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="faq">
-    <h2 class="w3-wide w3-center">FAQ</h2>
-    <p class="w3-opacity w3-center"><i>questions? Read this first!</i></p>
-	
-	<h3><p>What is the Color Blocks max supply ?</p></h3>
-	<p class="w3-opacity"><i>Only 500 Color Blocks available ! </i></p>
-	<h3><p>Where can i mint my Color Block(s) ?</p></h3>
-	<p class="w3-opacity"><i>We will provide a special website link for the drop. You will be able to mint your Color Blocks on it </i></p>
-	<h3><p>How much does it cost to mint a Color Blocks ?</p></h3>
-	<p class="w3-opacity"><i>0.25 SOL ! </i></p>
-	<h3><p>How many can I mint during the sale ?</p></h3>
-	<p class="w3-opacity"><i>1 per transaction. There is no limit to the number of transactions you can make !</i></p>
-	<h3><p>What wallet should I use ?</p></h3>
-	<p class="w3-opacity"><i>We recommend Phantom wallet</i></p>
-	<h3><p>Will there be a whitelist/presale ?</p></h3>
-	<p class="w3-opacity"><i>No, everyone has an equal chance</i></p>
-	<h3><p>Where can I check the rarity for my art ?</p></h3>
-	<p class="w3-opacity"><i>We will list on <a href="https://moonrank.app/">https://moonrank.app/</a> </i></p>
-	<h3><p>What will the artist royalty be used for ?</p></h3>
-	<p class="w3-opacity"><i>Sales on a secondary marketplace will typically accrue a 5% royalty fee to the artist. <br>The Color Blocks project will use 100% of artist royalties to sweep the floor and fund other community initiatives and expansions</i></p>
-    
+  <div class="w3-white color-block" id="faq">
+	<div class="bg3"></div>
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+		<h2 class="w3-wide w3-center">FAQ</h2>
+		<p class="w3-opacity w3-center"><i>questions? Read this first!</i></p>
+		
+		<h3><p>What is the Color Blocks max supply ?</p></h3>
+		<p class="w3-opacity" style="margin-top: -25px;"><i>Only 500 Color Blocks available ! </i></p>
+		<h3><p>Where can i mint my Color Block(s) ?</p></h3>
+		<p class="w3-opacity" style="margin-top: -25px;"><i>We will provide a special website link for the drop. You will be able to mint your Color Blocks on it </i></p>
+		<h3><p>How much does it cost to mint a Color Blocks ?</p></h3>
+		<p class="w3-opacity" style="margin-top: -25px;"><i>0.25 SOL ! </i></p>
+		<h3><p>How many can I mint during the sale ?</p></h3>
+		<p class="w3-opacity" style="margin-top: -25px;"><i>1 per transaction. There is no limit to the number of transactions you can make !</i></p>
+		<h3><p>What wallet should I use ?</p></h3>
+		<p class="w3-opacity" style="margin-top: -25px;"><i>We recommend Phantom wallet</i></p>
+		<h3><p>Will there be a whitelist/presale ?</p></h3>
+		<p class="w3-opacity" style="margin-top: -25px;"><i>No, everyone has an equal chance</i></p>
+		<h3><p>Where can I check the rarity for my art ?</p></h3>
+		<p class="w3-opacity" style="margin-top: -25px;"><i>We will list on <a href="https://moonrank.app/">https://moonrank.app/</a> </i></p>
+		<h3><p>What will the artist royalty be used for ?</p></h3>
+		<p class="w3-opacity" style="margin-top: -25px;"><i>Sales on a secondary marketplace will typically accrue a 5% royalty fee to the artist. <br>The Color Blocks project will use 100% of artist royalties to sweep the floor and fund other community initiatives and expansions</i></p>
+    </div>
   </div>
   
 <!-- End Page Content -->
